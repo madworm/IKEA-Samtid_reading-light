@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:my_parts
+LIBS:atmel
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -27,7 +28,6 @@ LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
-LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:IKEA-Samtid_reading-light-cache
@@ -558,4 +558,15 @@ Wire Wire Line
 	5900 2000 6000 2000
 Wire Wire Line
 	5900 2200 6000 2200
+$Comp
+L ATTINY25-S IC1
+U 1 1 5384DAB7
+P 3350 3100
+F 0 "IC1" H 2200 3500 40  0000 C CNN
+F 1 "ATTINY25-S" H 4350 2700 40  0000 C CNN
+F 2 "SO8-200" H 4300 3100 35  0000 C CIN
+F 3 "" H 3350 3100 60  0000 C CNN
+	1    3350 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

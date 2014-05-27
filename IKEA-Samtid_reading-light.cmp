@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Tue 27 May 2014 07:25:28 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Tue 27 May 2014 08:32:18 PM CEST
 
 BeginCmp
 TimeStamp = /506F358E;
@@ -89,6 +89,13 @@ TimeStamp = /50A00A38;
 Reference = DZ1;
 ValeurCmp = BZX84C_5V1;
 IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384DAB7;
+Reference = IC1;
+ValeurCmp = ATTINY25-S;
+IdModule  = my_parts:MADW__SO8_200mil_wide;
 EndCmp
 
 BeginCmp
