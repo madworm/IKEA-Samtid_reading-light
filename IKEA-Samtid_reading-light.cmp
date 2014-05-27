@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Tue 27 May 2014 08:32:18 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 01:03:57 AM CEST
 
 BeginCmp
-TimeStamp = /506F358E;
+TimeStamp = /538540B2;
 Reference = C1;
 ValeurCmp = 10µF;
 IdModule  = my_parts:MADW__C0805;
@@ -10,28 +10,28 @@ EndCmp
 BeginCmp
 TimeStamp = /50877166;
 Reference = C2;
-ValeurCmp = 10µF;
+ValeurCmp = 100nF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5087716E;
+TimeStamp = /5385355D;
 Reference = C3;
 ValeurCmp = 10µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50877171;
+TimeStamp = /50877174;
 Reference = C4;
-ValeurCmp = 10µF;
+ValeurCmp = 100nF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50877174;
+TimeStamp = /506F358E;
 Reference = C5;
-ValeurCmp = 10µF;
+ValeurCmp = 100nF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
@@ -92,10 +92,31 @@ IdModule  = my_parts:MADW__SOT23;
 EndCmp
 
 BeginCmp
+TimeStamp = /538535FE;
+Reference = FSEN1;
+ValeurCmp = CONN_2;
+IdModule  = my_parts:MADW__SMD_2-pin_square_3.2x2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5385367F;
+Reference = FSEN2;
+ValeurCmp = CONN_2;
+IdModule  = my_parts:MADW__SMD_2-pin_square_3.2x2.5mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /5384DAB7;
 Reference = IC1;
 ValeurCmp = ATTINY25-S;
 IdModule  = my_parts:MADW__SO8_200mil_wide;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384F1DF;
+Reference = JP1;
+ValeurCmp = AVR_ISP;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
 EndCmp
 
 BeginCmp
@@ -109,7 +130,7 @@ BeginCmp
 TimeStamp = /5384CB38;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = my_parts:MADW__SIL-4;
 EndCmp
 
 BeginCmp
@@ -134,8 +155,29 @@ IdModule  = my_parts:MADW__R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F3463;
+TimeStamp = /5385053C;
+Reference = R_FS1;
+ValeurCmp = 1M;
+IdModule  = my_parts:MADW__R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53850577;
+Reference = R_FS2;
+ValeurCmp = 1M;
+IdModule  = my_parts:MADW__R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53850B58;
 Reference = U1;
+ValeurCmp = MCP1804-SOT23-5;
+IdModule  = my_parts:MADW__SOT23-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F3463;
+Reference = U2;
 ValeurCmp = PT4115-SOT89-5;
 IdModule  = my_parts:MADW__SOT89-5;
 EndCmp
