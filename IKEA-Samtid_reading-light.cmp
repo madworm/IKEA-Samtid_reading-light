@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 01:03:57 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 03:38:19 AM CEST
 
 BeginCmp
 TimeStamp = /538540B2;
@@ -78,8 +78,15 @@ IdModule  = my_parts:MADW__Nichia-NT2x757DT;
 EndCmp
 
 BeginCmp
-TimeStamp = /506F350F;
+TimeStamp = /53854158;
 Reference = DS1;
+ValeurCmp = SS14L (40V, 1A);
+IdModule  = my_parts:MADW__diode_sub-SMA;
+EndCmp
+
+BeginCmp
+TimeStamp = /506F350F;
+Reference = DS2;
 ValeurCmp = SS14L (40V, 1A);
 IdModule  = my_parts:MADW__diode_sub-SMA;
 EndCmp
@@ -127,10 +134,17 @@ IdModule  = my_parts:MADW__L4.8x3.3mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5384CB38;
+TimeStamp = /53853FC6;
+Reference = NJ1;
+ValeurCmp = NET JOIN;
+IdModule  = my_parts:MADW__SMD-net-noin-0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /538523F8;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = my_parts:MADW__SIL-4;
+IdModule  = my_parts:MADW__edge-connector_SIL2_male;
 EndCmp
 
 BeginCmp
