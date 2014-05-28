@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 03:38:19 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 06:22:34 AM CEST
 
 BeginCmp
 TimeStamp = /538540B2;
@@ -123,7 +123,7 @@ BeginCmp
 TimeStamp = /5384F1DF;
 Reference = JP1;
 ValeurCmp = AVR_ISP;
-IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_2.54mm;
 EndCmp
 
 BeginCmp
