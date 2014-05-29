@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-27 BZR 4891)-product   date = Wed 28 May 2014 06:22:34 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-28 BZR 4896)-product   date = Thu 29 May 2014 07:03:14 PM CEST
 
 BeginCmp
 TimeStamp = /538540B2;
@@ -31,6 +31,13 @@ EndCmp
 BeginCmp
 TimeStamp = /506F358E;
 Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = my_parts:MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538769C2;
+Reference = C6;
 ValeurCmp = 100nF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
@@ -171,14 +178,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5385053C;
 Reference = R_FS1;
-ValeurCmp = 1M;
+ValeurCmp = 10M;
 IdModule  = my_parts:MADW__R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53850577;
 Reference = R_FS2;
-ValeurCmp = 1M;
+ValeurCmp = 10M;
 IdModule  = my_parts:MADW__R0805;
 EndCmp
 

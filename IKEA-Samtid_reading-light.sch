@@ -673,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3400 7050 3400
 Wire Wire Line
-	6700 4600 7050 4600
+	6700 4600 7350 4600
 Connection ~ 7050 4600
 Connection ~ 7050 3400
 Wire Wire Line
@@ -705,21 +705,19 @@ FSEN
 Text Label 7150 4000 0    60   ~ 0
 FSEN
 Wire Wire Line
-	6700 4000 7150 4000
+	6700 4000 7350 4000
 Wire Notes Line
-	6050 4800 7500 4800
+	6050 4800 7700 4800
 Text Notes 6100 3150 0    60   ~ 0
 Analog finger sensor
 Wire Notes Line
 	6050 3000 6050 4800
 Wire Notes Line
-	7500 4800 7500 3000
-Wire Notes Line
 	7100 3200 6050 3200
 Wire Notes Line
 	7100 3000 7100 3200
 Wire Notes Line
-	7500 3000 6050 3000
+	6050 3000 7700 3000
 Wire Wire Line
 	2300 1700 2300 1950
 Connection ~ 2300 1950
@@ -907,4 +905,21 @@ Wire Notes Line
 	750  950  1650 950 
 Wire Notes Line
 	1650 950  1650 750 
+$Comp
+L C C6
+U 1 1 538769C2
+P 7350 4300
+F 0 "C6" H 7400 4400 40  0000 L CNN
+F 1 "100nF" H 7400 4200 40  0000 L CNN
+F 2 "" H 7388 4150 30  0000 C CNN
+F 3 "" H 7350 4300 60  0000 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4000 7350 4100
+Wire Wire Line
+	7350 4600 7350 4500
+Wire Notes Line
+	7700 3000 7700 4800
 $EndSCHEMATC
