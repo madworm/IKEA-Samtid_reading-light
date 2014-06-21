@@ -1,8 +1,10 @@
 
-IKEA-Samtid_reading-light (WIP)
-===============================
+IKEA-Samtid_reading-light
+=========================
 
 LAYOUT FILES: Circuit board to go between the movable beams of the Samtid lamp.
+
+[![IKEA Samtid](/Docs/attached_to_lamp.jpg)](/Docs/attached_to_lamp.jpg)
 
 
 ---
