@@ -937,9 +937,11 @@ Wire Wire Line
 	5650 6650 5950 6650
 Connection ~ 5950 6650
 Text Notes 600  7650 0    60   ~ 0
-(1) PT4115 internal pull-up 200k\n\n(2) RC < 100ms
+(1) PT4115 internal pull-up 200k\n\n(2) RC < 100ms\n\n(3) ATtiny13 should work as well (same pinout)
 Text Notes 6400 6150 0    60   ~ 0
 (1)
 Text Notes 7150 4150 0    60   ~ 0
 (2)
+Text Notes 3250 3550 0    60   ~ 0
+(3)
 $EndSCHEMATC
